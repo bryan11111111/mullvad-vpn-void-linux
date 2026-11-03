@@ -4,7 +4,7 @@ fork of https://gitlab.com/LightSrc/mullvad-vpn-void-linux/-/tree/main
 ### Method 1: Adding this Repository to xbps
 install repo:
 ```bash
-echo "repository=https://github.com/bryan11111111/mullvad-vpn-void-linux/raw/refs/heads/repository-x86_64-glibc/mullvad-vpn-2026.5_1.x86_64.xbps" | sudo tee /etc/xbps.d/mullvadvpn-void.conf
+echo "repository=https://github.com/bryan11111111/mullvad-vpn-void-linux/raw/refs/heads/repository-x86_64-glibc" | sudo tee /etc/xbps.d/mullvadvpn-void.conf
 ```
 install mv:
 ```bash
